@@ -1,0 +1,64 @@
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width: 576px) {
+
+    .top {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 24px;
+    }
+
+    .top-info {
+        text-align: center;
+        margin: 28px 53px 0;
+    }
+
+    .top-info a {
+        margin: 0;
+        padding: 8px 12px;
+    }
+
+    .top-title {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .top-para {
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .top-image {
+        margin-left: 40px;
+    }
+
+    /* top done */
+
+    /* bottom start */
+    .bottom,
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .side-menu {
+        background-color: #fff;
+    }
+
+    /* footer start */
+    .footer-menu ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .footer-menu ul li {
+        margin: 0;
+        padding: 15px 0;
+    }
+}
