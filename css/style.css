@@ -51,6 +51,12 @@
     font-size: 18px;
 }
 
+.top-button:hover {
+    color: #DD0000;
+    background-color: #fff;
+    transition: color .8s ease, background-color .5s ease;
+}
+
 .top-button .fa-angle-right {
     margin-left: 7px;
 }
