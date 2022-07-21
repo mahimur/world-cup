@@ -94,7 +94,7 @@
 @media only screen and (min-width: 689px) and (max-width: 1224px) {
     .top {
         display: grid;
-        grid-template-columns: repeat(2, 316px 323px);
+        grid-template-columns: repeat(2, 400px 323px);
         margin-bottom: 50px;
     }
 
@@ -109,7 +109,7 @@
     }
 
     .top-image {
-        margin-left: 60px;
+        height: 100%;
     }
 
     .bottom {
