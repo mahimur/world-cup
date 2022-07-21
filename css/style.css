@@ -7,12 +7,14 @@
 
 .container {
     margin: 30px 10%;
+    max-width: 1200px;
 }
 
 /* top start */
 .top {
+    max-width: fit-content;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 633px 531px);
     background-color: #161616;
     border-radius: 30px;
     margin-bottom: 130px;
@@ -55,7 +57,7 @@
 
 .top-player {
     margin-top: 33px;
-    margin-right: 80px;
+    width: 100%;
 }
 
 .top-image {
@@ -142,6 +144,7 @@
 
 .blog-info a {
     display: block;
+    color: #161616;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500px;
@@ -169,6 +172,10 @@
 .blog-info .time-comment div {
     display: flex;
     column-gap: 10px;
+}
+
+.tab-button {
+    display: none;
 }
 
 /* bottom end */
